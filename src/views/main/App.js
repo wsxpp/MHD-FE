@@ -7,9 +7,11 @@ import Layout from '../layout';
 function App() {
   return (
     <div className="App">
-      <Topline />
       <LeftMenu />
-      <Layout />
+      <div className='right'>
+        <Topline />
+        <Layout />
+      </div>
     </div>
   );
 }
