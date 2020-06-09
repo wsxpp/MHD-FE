@@ -8,6 +8,11 @@
   flex: 1;
 }
 
+.layout{
+  width: 100%;
+  padding: 20px ;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
